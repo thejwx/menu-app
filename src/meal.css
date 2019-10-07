@@ -1,0 +1,139 @@
+.dailyRecord{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 75px;
+    font-family: 'Noto Serif', serif;
+    color: #333;
+}
+
+.day{
+    font-size: 28px;
+    font-weight: 1000;
+    border-bottom: solid 1px #333;
+}
+
+.mainIngredientStylePair {
+    position: relative;
+    float: right;
+    top: -26px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.mainIngredientStylePair span:hover {
+    cursor: pointer;
+    color: #666;
+}
+
+.meal{
+    position: absolute;
+    width: inherit;
+    margin-top: 5px;
+    margin-left: 20px;
+    word-wrap: break-word;
+    line-height: 95%;
+    font-weight: 100;
+    font-size: 20px;
+    color: #666;
+}
+
+.meal a:hover{
+    color: #800;
+}
+
+.meal a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.lockImage {
+    width: 11px;
+    height: 11px;
+    outline : none;
+    opacity: .2;
+    filter: grayscale(100%);
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.lockImage:hover {
+    opacity: .6;
+}
+
+.lockedMeal {
+    opacity: .8;
+    filter: grayscale(20%);
+}
+
+.refreshImage {
+    width: 15px;
+    height: 15px;
+    outline : none;
+    float: left;
+    opacity: .2;
+    margin-top: 8px;
+}
+
+.refreshImage:hover {
+    opacity: .6;
+}
+
+.select {
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    border: none;
+    background-color: inherit;
+    overflow:hidden;
+    font-size: 10pt;
+    color: inherit;
+}
+
+.mainIngredientSwitcherModal, .styleSwitcherModal{
+    position: absolute;
+    right: 0px;
+    z-index: 1000;
+    background: white;
+    box-shadow: 1px 3px 4px #ccc;
+}
+
+.mainIngredientSwitcherModal div, .styleSwitcherModal div{
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.mainIngredientSwitcherModal div:hover, .styleSwitcherModal div:hover{
+    background: #eee;
+}
+
+.mainIngredientSwitcherModal div.selectedItem:hover, .styleSwitcherModal div.selectedItem:hover{
+    background: #81b8cf;
+}
+
+.mainIngredientSwitcherModal input, .styleSwitcherModal input{
+    border: 0px;
+    background: inherit;
+    color: #666;
+    font-size: 12px;
+}
+
+.display{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.selectedItem{
+    background: #97c4d8;
+}
+
+.selectedItem input{
+    font-weight: bold;
+    color: white;
+}

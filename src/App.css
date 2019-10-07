@@ -1,0 +1,31 @@
+.App {
+  
+}
+
+.App-header {
+  background-color: #333;
+  height: 40px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.App-header h1 {
+  position: relative;
+  top: -72px;
+  font-size: 73px;
+  font-family: 'Rubik';
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.App-header h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.App-header h1 a:hover {
+    opacity: .9;
+}
+
