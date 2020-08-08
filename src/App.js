@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App">
         <header className="App-header">
           <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Rubik:700&display=swap" rel="stylesheet" />
-          <h1 className="App-title"><a href='/'>Dinner Menu</a></h1>
+          <h1 className="App-title"><a href='/'>Dinner Menu!</a></h1>
         </header>
           <Switch>
                 <Route exact path= "/" render={() => (
